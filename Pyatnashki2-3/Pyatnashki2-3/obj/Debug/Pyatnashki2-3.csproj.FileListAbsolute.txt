@@ -1,0 +1,9 @@
+C:\Users\Влада\Documents\GitHub\Pyatnashki-2-3\Pyatnashki2-3\Pyatnashki2-3\bin\Debug\Pyatnashki2-3.exe.config
+C:\Users\Влада\Documents\GitHub\Pyatnashki-2-3\Pyatnashki2-3\Pyatnashki2-3\obj\Debug\Pyatnashki2-3.csprojResolveAssemblyReference.cache
+C:\Users\Влада\Documents\GitHub\Pyatnashki-2-3\Pyatnashki2-3\Pyatnashki2-3\bin\Debug\Pyatnashki2-3.exe
+C:\Users\Влада\Documents\GitHub\Pyatnashki-2-3\Pyatnashki2-3\Pyatnashki2-3\bin\Debug\Pyatnashki2-3.pdb
+C:\Users\Влада\Documents\GitHub\Pyatnashki-2-3\Pyatnashki2-3\Pyatnashki2-3\obj\Debug\Pyatnashki2-3.exe
+C:\Users\Влада\Documents\GitHub\Pyatnashki-2-3\Pyatnashki2-3\Pyatnashki2-3\obj\Debug\Pyatnashki2-3.pdb
+C:\Users\techn_000\Desktop\Pyatnashki-2-3-master\Pyatnashki2-3\Pyatnashki2-3\bin\Debug\Pyatnashki2-3.exe.config
+C:\Users\techn_000\Desktop\Pyatnashki-2-3-master\Pyatnashki2-3\Pyatnashki2-3\obj\Debug\Pyatnashki2-3.exe
+C:\Users\techn_000\Desktop\Pyatnashki-2-3-master\Pyatnashki2-3\Pyatnashki2-3\obj\Debug\Pyatnashki2-3.pdb
