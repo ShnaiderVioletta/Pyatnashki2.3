@@ -8,16 +8,16 @@ namespace Pyatnashki
 {
     class Game3 : Game2
     {
-        private int number; //ходов
-        private Log log;//лог с историей ходов
+        private int number; 
+        private Log log;
 
         public int Number
         {
             get { return number; }
         }
-        public Game3(params int[] val) : base(val) //конструктор - наследование от конструктора родительского класса
+        public Game3(params int[] val) : base(val) 
         {
-            log = new Log(); //инициализируем новую историю ходов
+            log = new Log(); 
             number = 0;
         }
         public void Conversaly(int movesAgo) //Возврат игры на количество ходов назад
