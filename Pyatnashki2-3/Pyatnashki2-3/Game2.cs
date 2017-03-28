@@ -54,7 +54,7 @@ namespace Pyatnashki
                 }
             }
 
-            List<int> lst = new List<int>(); //формируем лист для передачи в качестве параметров конструктору
+            List<int> lst = new List<int>(); 
             for (int i = 0; i < size; i++)
             {
                 for (int j = 0; j < size; j++)
@@ -75,7 +75,7 @@ namespace Pyatnashki
                         (field[i, j] != 0 && i == size - 1 && j == size - 1)) return false;
                 }//проверяем на условие отсутствия ходов
             }
-            return true;//иначе - выигрыш
+            return true;
         }
 
     }
