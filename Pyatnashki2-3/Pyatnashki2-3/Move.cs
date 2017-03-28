@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Pyatnashki
 {
-    class Move //ход
+    class Move 
     {
         public int Num;
         public Point A;
