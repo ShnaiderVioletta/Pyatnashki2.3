@@ -14,7 +14,7 @@ namespace Pyatnashki
             CheckIt(val); //проверка переданных параметров для создания игры
 
             int size = (int)Math.Sqrt(val.Length); //вычисляем размер игры
-            int[,] mas = new int[size, size]; //инициализируем поле
+            int[,] mas = new int[size, size]; 
 
             for (int i = 0; i < size; i++)
             {
@@ -26,7 +26,7 @@ namespace Pyatnashki
 
             for (int k = 0; k < numberOfIterations; k++)
             {
-                List<Point> nearBones = new List<Point>();   //лист с соседними костями
+                List<Point> nearBones = new List<Point>();   
                 Point Position0 = new Point(-1, -1); //кость с нулевым значением
                 Point PositionToSwap; //кость, с которой будем меняться местами
 
@@ -41,12 +41,12 @@ namespace Pyatnashki
                             if (i - 1 >= 0) nearBones.Add(new Point(j, i - 1));
                             if (i + 1 <= size - 1) nearBones.Add(new Point(j, i + 1));
                             if (j - 1 >= 0) nearBones.Add(new Point(j - 1, i));
-                            if (j + 1 <= size - 1) nearBones.Add(new Point(j + 1, i));//заносим данные о соседних костях в лист
+                            if (j + 1 <= size - 1) nearBones.Add(new Point(j + 1, i));
                         }
                     }
                 }
 
-                if (nearBones.Count > 0) //если при прохождении массива были найдены 0-кости
+                if (nearBones.Count > 0) 
                 {
                     Random random = new Random();
                     PositionToSwap = nearBones[random.Next(nearBones.Count - 1)];//выбираем случайную кость для замены
